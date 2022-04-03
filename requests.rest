@@ -5,3 +5,27 @@ Content-type: application/json
     "dogs": ["Max", "Jared", "Jerome"]
 }
 
+
+###
+
+
+GET http://localhost:3000/api/jsonBlob/360113be-30c6-4c46-999b-ee071c4fb3a0
+Content-type: application/json
+
+{}
+
+###
+
+PUT http://localhost:3000/api/jsonBlob/360113be-30c6-4c46-999b-ee071c4fb3a0
+Content-type: application/json
+
+{
+    "cats": ["Max", "Jared", "Jerome"]
+}
+
+###
+
+DELETE http://localhost:3000/api/jsonBlob/9f75db8f-dc28-4c14-8fa8-4b3e27fcd3ea
+Content-type: application/json
+
+{}
