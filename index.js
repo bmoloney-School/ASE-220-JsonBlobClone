@@ -19,7 +19,7 @@ app.post('/api/jsonBlob', (req, res) => {
         console.log(err)
     })
 
-    res.append('Location', 'http:/localhost:' + port + '/api/jsonBlob/' + fileName)
+    res.append('Location', 'http://localhost:' + port + '/api/jsonBlob/' + fileName)
     res.body = req.body
     res.send();
 });

@@ -9,14 +9,14 @@ Content-type: application/json
 ###
 
 
-GET http://localhost:3000/api/jsonBlob/360113be-30c6-4c46-999b-ee071c4fb3a0
+GET http://localhost:3000/api/jsonBlob/f1d2e57f-3486-4770-bc14-98e7c05066dd
 Content-type: application/json
 
 {}
 
 ###
 
-PUT http://localhost:3000/api/jsonBlob/360113be-30c6-4c46-999b-ee071c4fb3a0
+PUT http://localhost:3000/api/jsonBlob/f1d2e57f-3486-4770-bc14-98e7c05066dd
 Content-type: application/json
 
 {
